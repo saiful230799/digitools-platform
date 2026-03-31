@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Create professional resumes with AI-powered suggestions and ATS optimization.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "new",
+    "tagColor": "text-[#BB4D00] bg-[#FEF3C6]",
+    "features": ["5 resume templates", "ATS optimization", "Export to PDF", "Basic editing tools"],
+    "icon": "./writing-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access 500+ premium design assets, icons, and templates for your projects.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "tagColor": "text-blue-500 bg-blue-100 bg-[#E1E7FF]",
+    "features": ["500+ design assets", "Team collaboration", "Cloud storage 50GB", "Priority support"],
+    "icon": "./design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Automate email campaigns with smart segmentation and detailed analytics.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "tagColor": "text-[#0A883E] bg-[#DBFCE7]",
+    "features": ["Unlimited emails", "Smart segmentation", "A/B testing", "1000+ templates"],
+    "icon": "./camera.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Boost rankings with real-time SEO analysis and keyword tracking tools.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "tagColor": "text-blue-500 bg-blue-100",
+    "features": ["Real-time SEO audit", "Keyword tracker", "Backlink monitor", "Weekly reports"],
+    "icon": "./operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Manage projects with kanban boards, time tracking and automated reporting.",
+    "price": 15,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "tagColor": "text-[#0A883E] bg-[#DBFCE7]",
+    "features": ["Unlimited projects", "Kanban & Gantt view", "Time tracking", "10 team members"],
+    "icon": "./portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Schedule and automate posts across all major social platforms.",
+    "price": 89,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "tagColor": "text-[#BB4D00] bg-[#FEF3C6]",
+    "features": ["10 social accounts", "Auto scheduling", "Content calendar", "Engagement analytics"],
+    "icon": "./social-media.png"
+  }
+]

@@ -1,16 +1,68 @@
-# React + Vite
+<!-- Readme -->
+# 🛒 DigiTools - Premium Digital Products Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a modern, responsive, and high-performance E-commerce landing page for digital products. Built with React, **Tailwind CSS**, and **DaisyUI**, it offers a seamless shopping experience with a dynamic cart system.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Click here to view the live site]
+(https://digitoolsplatformnew.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* **Dynamic Product Listing:** Fetches digital tools from a JSON file.
+* **Active Tab System:** Switch smoothly between **Products** and **Cart** views.
+* **Fully Functional Cart:** * Add products to the cart in real-time.
+    * Automatic price calculation.
+    * Remove items from the cart.
+    * Styled "Empty Cart" state with a professional look.
+* **Fully Responsive Design:** Optimized for Mobile, Tablet, and Desktop screens.
+* **Modern UI:** Features a sleek gradient design, sticky navigation, and smooth hover effects.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend:** React.js
+* **Styling:** Tailwind CSS
+* **Components:** DaisyUI
+* **Icons:** React Icons (FiShoppingCart, FiMenu, FiX)
+* **Data Handling:** Fetch API (Local JSON)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/saiful230799](https://github.com/saiful230799/digitools-platform.git)
+    ```
+2.  **Navigate to the project folder:**
+    ```bash
+    cd digitools
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Run the project:**
+    ```bash
+    npm run dev
+    ```
+
+## 📂 Project Structure
+```text
+├── public/
+│   └── products.json      # Product data
+├── src/
+│   ├── components/
+│   │   ├── Navbar/        # Responsive Navigation
+│   │   ├── ProductCard/   # Individual Product UI
+│   │   └── MainContainer/ # Tab Logic & Cart System
+│   ├── App.jsx            # Main App Logic
+│   └── main.jsx           # Entry Point
+└── package.json           # Dependencies & Scripts
+
+
+## 🛠️ Tech Stack
+* **Frontend:** React.js
+* **Styling:** Tailwind CSS (Mobile Responsive)
+* **Icons:** React Icons
+
+---
+Developed with by [Saiful Islam](https://github.com/saiful230799)
